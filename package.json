@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^7.9.22",
-    "next": "16.4.3",
+    "next": "^16.4.6",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
@@ -20,8 +20,8 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "daisyui": "^5.7.50",
-    "eslint": "^9",
-    "eslint-config-next": "16.4.3",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.6",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
