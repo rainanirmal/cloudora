@@ -16,7 +16,5 @@ export async function GET(request: NextRequest) {
 
     } catch (error) {
         return NextResponse.json({ error: "Failed to fetch videos" }, { status: 500 });
-    } finally {
-        await prisma.$disconnect();
-    }
+    } 
 }
